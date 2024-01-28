@@ -8,10 +8,10 @@ a {
     margin: 2%;
     font-size: 70%;
 }
-            body { 
-          background-image: url("./4.jpg"); 
+            body {  
           background-repeat: no-repeat;
       height: 100%;
       background-repeat: no-repeat;
       background-size: cover;
+      background-attachment: fixed;
               }
