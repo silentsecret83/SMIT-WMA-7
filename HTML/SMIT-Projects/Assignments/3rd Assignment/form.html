@@ -9,6 +9,10 @@
           body { 
         background-image: url("./1000_F_418887893_QZmD9Vd8l8jeJhj75QAmB2EOUhl8rJE8.jpg"); 
             }
+         input {
+          background: none;
+          color: white;
+         } 
       </style>
 </head>
 <body>
@@ -45,7 +49,7 @@
          id="Email" name="Email" placeholder="abcd123@web.com" required> <br> <br>
 
          <label style="margin-left: 25px; margin-right: 86px;">Mobile:</label>
-         <input type="text" style="font-size: 10pt; height: 30px; width: 500px; border-radius:6px;; border-color: rgb(218, 215, 215);"
+         <input type="number" style="font-size: 10pt; height: 30px; width: 500px; border-radius:6px;; border-color: rgb(218, 215, 215);"
           id="tel" name="Mobile" pattern="[0-9]{10}" placeholder="only 10 digits are allowed" required> <br> <br>
 
         <label style="margin-left: 25px; margin-right: 76px;">Gender:</label>
@@ -59,7 +63,7 @@
         id="dob" name="dob" required> <br> <br>
 
         <label style="margin-left: 25px; margin-right: 77px;">Address:</label>
-        <textarea id="address" style="font-size: 10pt; height: 200px; width: 500px; border-radius:6px;; border-color: rgb(218, 215, 215);"
+        <textarea id="address" style="font-size: 10pt; height: 40px; width: 500px; border-radius:6px;; border-color: rgb(218, 215, 215); background: none; color: white;"
          name="address" placeholder="Enter your address" required></textarea> <br> <br>
 
          <label style="margin-left: 25px; margin-right: 105px;">City:</label>
@@ -75,21 +79,21 @@
           id="state" name="state" required> <br> <br>
 
           <label style="margin-left: 29px; margin-right: 44px;">Qualification:</label>
-        <select id="qualification" name="qualification">
+        <select id="qualification" name="qualification" style="font-size: 10pt; height: 35px; width: 135px; border-radius:6px; background: none;">
             <option value="">Select Qualification</option>
             <option value="Matric">Matric</option>
             <option value="Intermediate">Intermediate</option>
             <option value="bachelors">Bachelors</option>
             <option value="masters">Masters</option>
           <input type="text" style="font-size: 10pt; height: 30px; width: 365px; border-radius:6px;; border-color: rgb(218, 215, 215);"
-          id="Education" name="qualification" required> <br> <br>
+          id="Education" placeholder="institute name" name="qualification" required> <br> <br>
           <label style="margin-left: 25px; margin-right: 74px;">Password:</label>
         <input type="password" style="font-size: 10pt; height: 30px; width: 500px; border-radius:6px;; border-color: rgb(218, 215, 215);"
          id="password" name="password" required> <br> <br>
 
  
-         <button type="submit" style="font-size: 10pt; height: 45px; width: 200px;  background-color: rgb(0, 0, 0); border-radius:10px;
-          border-color: rgb(218, 215, 215); color: white;">Register</button>
+         <button type="submit" style="font-size: 10pt; height: 45px; width: 200px;  background: none; border-radius:10px;
+          border-color: rgb(218, 215, 215); color: white;">Sign Up</button>
     </form>
   </main>
 </center>
