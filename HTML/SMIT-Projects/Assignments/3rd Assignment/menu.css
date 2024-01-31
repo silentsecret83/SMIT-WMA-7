@@ -1,0 +1,261 @@
+header {
+  height: 70px;
+  background-color: rgb(56, 54, 54); /* For browsers that do not support gradients */
+  background-image:linear-gradient(-90deg, rgb(29, 28, 28), rgb(73, 72, 72));
+    text-align: left;
+    font-size: 140%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 2%;
+    font-size: 65%;
+}
+            body {  
+          background-repeat: no-repeat;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+              }
+
+      .mydiv {
+                padding: 10px -3px 10px -3px;
+                box-sizing: border-box;
+                border-radius: 70%;
+                position: relative;
+                max-width:200px;
+                margin: 0 auto;
+              }
+              
+    .mydiv image {vertical-align: middle;}
+              
+    .mydiv {
+                position: absolute;
+                top: 3%;
+                right: 2%;
+                background: rgb(216, 68, 68); /* Fallback color */
+                background: rgba(14, 4, 59, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1;
+                width: 15%;
+                padding: -20px;
+              }
+
+              .my {
+                padding: 15px 50px 15px 80px;
+                box-sizing: border-box;
+                border-radius: 8%;
+                position: relative;
+                max-width:400px;
+                margin: 0 auto;
+              }
+              
+              .my image {vertical-align: middle;}
+              
+                .my {
+                position: absolute;
+                top: 15%;
+                right: 37%;
+                background: rgb(0, 0, 0); /* Fallback color */
+                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1;
+                width: 35%;
+                padding: 10px;
+              }
+
+              .nine {
+                padding: 15px 10px 15px 10px;
+                box-sizing: border-box;
+                border-radius: 20%;
+                position: relative;
+                max-width: 280px;
+                margin: auto;
+              }
+              
+              .nine image {vertical-align: middle;}
+              
+                .nine {
+                position: absolute;
+                top: 45%;
+                right: 70%;
+                background: rgb(16, 16, 16); /* Fallback color */
+                background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1;
+                width: 20%;
+              }
+
+              .ten {
+                padding: 15px 10px 15px 10px;
+                box-sizing: border-box;
+                border-radius: 20%;
+                position: relative;
+                max-width: 280px;
+                margin-inline: auto;
+                margin: auto;
+              }
+              
+              .ten image {vertical-align: middle;} 
+              
+                .ten {
+                position: absolute;
+                top: 45%;
+                right: 50%;
+                background: rgb(16, 16, 16); /* Fallback color */
+                background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+                /* opacity: ; */
+                color: #f1f1f1;
+                width: 20%;
+
+              }
+
+              .eleven {
+                padding: 15px 10px 15px 10px;
+                box-sizing: border-box;
+                border-radius: 20%;
+                position: relative;
+                max-width: 280px;
+                margin:auto;
+              }
+              
+              .eleven image {vertical-align: middle;}
+              
+                .eleven {
+                position: absolute;
+                top: 45%;
+                right: 30%;
+                background: rgb(16, 16, 16); /* Fallback color */
+                background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+                /* opacity: ; */
+                color: #f1f1f1;
+                width: 20%;
+              }
+
+              .twelve {padding: 15px 10px 15px 10px;
+              box-sizing: border-box;
+              border-radius: 20%;
+              position: relative;
+              max-width: 280px;
+              margin:auto;
+            }
+            
+            .twelve image {vertical-align: middle;}
+            
+              .twelve {
+              position: absolute;
+              top: 45%;
+              right: 10%;
+              background: rgb(16, 16, 16); /* Fallback color */
+              background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+              /* opacity: ; */
+              color: #f1f1f1;
+              width: 20%;
+            }
+
+            .thirteen {
+              padding: 15px 10px 15px 10px;
+              box-sizing: border-box;
+              border-radius: 20%;
+              position: relative;
+              max-width: 280px;
+              margin: auto;
+            }
+            
+            .thirteen image {vertical-align: middle;}
+            
+              .thirteen {
+              position: absolute;
+              top: 90%;
+              right: 70%;
+              background: rgb(16, 16, 16); /* Fallback color */
+              background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 20%;
+            }
+
+            .fourteen {
+              padding: 15px 10px 15px 10px;
+              box-sizing: border-box;
+              border-radius: 20%;
+              position: relative;
+              max-width: 280px;
+              margin: auto;
+            }
+            
+            .fourteen image {vertical-align: middle;}
+            
+              .fourteen {
+              position: absolute;
+              top: 90%;
+              right: 50%;
+              background: rgb(16, 16, 16); /* Fallback color */
+              background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 20%;
+            }
+
+            .fifteen {
+              padding: 15px 10px 15px 10px;
+              box-sizing: border-box;
+              border-radius: 20%;
+              position: relative;
+              max-width: 280px;
+              margin: auto;
+            }
+            
+            .fifteen image {vertical-align: middle;}
+            
+              .fifteen {
+              position: absolute;
+              top: 90%;
+              right: 30%;
+              background: rgb(16, 16, 16); /* Fallback color */
+              background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 20%;
+            }
+
+            .sixteen {
+              padding: 15px 10px 15px 10px;
+              box-sizing: border-box;
+              border-radius: 20%;
+              position: relative;
+              max-width: 280px;
+              margin: auto;
+            }
+            
+            .sixteen image {vertical-align: middle;}
+            
+              .sixteen {
+              position: absolute;
+              top: 90%;
+              right: 10%;
+              background: rgb(16, 16, 16); /* Fallback color */
+              background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 20%;
+            }
+
+            .seventeen {
+              padding: 15px 20px 15px 20px;
+              box-sizing: border-box;
+              border-radius: 20%;
+              position: relative;
+              max-width: 280px;
+              margin: auto;
+            }
+            
+            .seventeen image {vertical-align: middle;}
+            
+              .seventeen {
+              position: absolute;
+              top: 135%;
+              right: 40%;
+              background: rgb(16, 16, 16); /* Fallback color */
+              background: rgba(16, 16, 16, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 20%;
+            }
+
+
+            

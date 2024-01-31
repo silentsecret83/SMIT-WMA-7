@@ -1,0 +1,64 @@
+header {
+  height: 70px;
+  background-color: rgb(56, 54, 54); /* For browsers that do not support gradients */
+  background-image:linear-gradient(-90deg, rgb(29, 28, 28), rgb(73, 72, 72));
+    text-align: left;
+    font-size: 140%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 2%;
+    font-size: 65%;
+}
+            body {  
+          background-repeat: no-repeat;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+              }
+
+      .mydiv {
+                padding: 10px -3px 10px -3px;
+                box-sizing: border-box;
+                border-radius: 70%;
+                position: relative;
+                max-width:200px;
+                margin: 0 auto;
+              }
+              
+    .mydiv image {vertical-align: middle;}
+              
+    .mydiv {
+                position: absolute;
+                top: 3%;
+                right: 2%;
+                background: rgb(216, 68, 68); /* Fallback color */
+                background: rgba(14, 4, 59, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1;
+                width: 15%;
+                padding: -20px;
+              }
+             
+              .forth {
+                padding: 80px 100px 80px 100px;
+                box-sizing: border-box;
+                position: relative;
+                max-width: 2000px ;
+                margin: auto;
+              }
+              
+              .forth image {vertical-align: middle;}
+              
+                .forth {
+                position: absolute;
+                top: 15%;
+                right: 0%;
+                background: rgb(3, 3, 3); /* Fallback color */
+                background: rgba(3, 3, 3, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1;
+                width: 100%;
+                padding: 10px;
+              }

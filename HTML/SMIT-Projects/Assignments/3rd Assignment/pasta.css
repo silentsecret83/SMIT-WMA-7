@@ -1,0 +1,142 @@
+header {
+    height: 70px;
+    background-color: rgb(56, 54, 54); /* For browsers that do not support gradients */
+    background-image:linear-gradient(-90deg, rgb(29, 28, 28), rgb(73, 72, 72));
+      text-align: left;
+      font-size: 140%;
+  }
+  
+  a {
+      text-decoration: none;
+      color: aliceblue;
+      margin: 2%;
+      font-size: 65%;
+  }
+              body {  
+            background-repeat: no-repeat;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+                }
+  
+        .mydiv {
+                  padding: 10px -3px 10px -3px;
+                  box-sizing: border-box;
+                  border-radius: 70%;
+                  position: relative;
+                  max-width:200px;
+                  margin: 0 auto;
+                }
+                
+      .mydiv image {vertical-align: middle;}
+                
+      .mydiv {
+                  position: absolute;
+                  top: 3%;
+                  right: 2%;
+                  background: rgb(216, 68, 68); /* Fallback color */
+                  background: rgba(14, 4, 59, 0.5); /* Black background with 0.5 opacity */
+                  color: #f1f1f1;
+                  width: 15%;
+                  padding: -20px;
+                }
+                .first {
+                  padding: 15px 10px 15px 10px;
+                  box-sizing: border-box;
+                  border-radius: 8%;
+                  position: relative;
+                  max-width:300px;
+                  margin: 0 auto;
+                }
+                
+                .first image {vertical-align: middle;}
+                
+                  .first {
+                  position: absolute;
+                  top: 40%;
+                  right: 70%;
+                  background: rgb(0, 0, 0); /* Fallback color */
+                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                  color: #f1f1f1;
+                  }
+
+                  .second {
+                    padding: 15px 10px 15px 10px;
+                    box-sizing: border-box;
+                    border-radius: 8%;
+                    position: relative;
+                    max-width:300px;
+                    margin: 0 auto;
+                  }
+                  
+                  .second image {vertical-align: middle;}
+                  
+                    .second {
+                    position: absolute;
+                    top: 40%;
+                    right: 50%;
+                    background: rgb(0, 0, 0); /* Fallback color */
+                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                    color: #f1f1f1;
+                    }
+
+                    .third {
+                      padding: 15px 10px 15px 10px;
+                      box-sizing: border-box;
+                      border-radius: 8%;
+                      position: relative;
+                      max-width:300px;
+                      margin: 0 auto;
+                    }
+                    
+                    .third image {vertical-align: middle;}
+                    
+                      .third {
+                      position: absolute;
+                      top: 40%;
+                      right: 30%;
+                      background: rgb(0, 0, 0); /* Fallback color */
+                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                      color: #f1f1f1;
+                      }
+                      .four {
+                        padding: 15px 10px 15px 10px;
+                        box-sizing: border-box;
+                        border-radius: 8%;
+                        position: relative;
+                        max-width:300px;
+                        margin: 0 auto;
+                      }
+                      
+                      .four image {vertical-align: middle;}
+                      
+                        .four {
+                        position: absolute;
+                        top: 40%;
+                        right: 10%;
+                        background: rgb(0, 0, 0); /* Fallback color */
+                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                        color: #f1f1f1;
+                        }
+
+                        .five {
+                          padding: 15px 10px 15px 10px;
+                          box-sizing: border-box;
+                          border-radius: 8%;
+                          position: relative;
+                          max-width:300px;
+                          margin: 0 auto;
+                        }
+                        
+                        .five image {vertical-align: middle;}
+                        
+                          .five {
+                          position: absolute;
+                          top: 95%;
+                          right: 70%;
+                          background: rgb(0, 0, 0); /* Fallback color */
+                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                          color: #f1f1f1;
+                          }
+
