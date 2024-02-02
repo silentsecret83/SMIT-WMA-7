@@ -85,6 +85,10 @@ a {
                 width: 30%;
                 padding: 10px;
               }
+              .second:hover {
+                box-shadow: 0 0 3px black;
+                margin-top: -20px;
+              }
 
               .third {
                 padding: 18px 10px 60px 20px;
@@ -106,4 +110,8 @@ a {
                 color: #f1f1f1;
                 width: 30%;
                 padding: 10px;
+              }
+              .third:hover {
+                box-shadow: 0 0 3px black;
+                margin-top: -20px;
               }
