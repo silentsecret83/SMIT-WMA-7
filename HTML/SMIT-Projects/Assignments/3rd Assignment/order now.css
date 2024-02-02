@@ -1,0 +1,1290 @@
+header {
+    height: 70px;
+    background-color: rgb(56, 54, 54); /* For browsers that do not support gradients */
+    background-image:linear-gradient(-90deg, rgb(29, 28, 28), rgb(73, 72, 72));
+      text-align: left;
+      font-size: 140%;
+  }
+  
+  a {
+      text-decoration: none;
+      color: aliceblue;
+      margin: 2%;
+      font-size: 65%;
+  }
+              body {  
+            background-repeat: no-repeat;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+                }
+  
+        .mydiv {
+                  padding: 10px -3px 10px -3px;
+                  box-sizing: border-box;
+                  border-radius: 70%;
+                  position: relative;
+                  max-width:200px;
+                  margin: 0 auto;
+                }
+                
+      .mydiv image {vertical-align: middle;}
+                
+      .mydiv {
+                  position: absolute;
+                  top: 3%;
+                  right: 2%;
+                  background: rgb(216, 68, 68); /* Fallback color */
+                  background: rgba(14, 4, 59, 0.5); /* Black background with 0.5 opacity */
+                  color: #f1f1f1;
+                  width: 15%;
+                  padding: -20px;
+                }
+              
+                .xi {
+                  padding: 15px 10px 15px 10px;
+                  box-sizing: border-box;
+                  border-radius: 8%;
+                  position: relative;
+                  max-width:300px;
+                  margin: 0 auto;
+                }
+                
+                .xi image {vertical-align: middle;}
+                
+                  .xi {
+                  position: absolute;
+                  top: 45%;
+                  right: 70%;
+                  background: rgb(0, 0, 0); /* Fallback color */
+                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                  color: #f1f1f1;
+                  }
+
+                  .xii {
+                    padding: 15px 10px 15px 10px;
+                    box-sizing: border-box;
+                    border-radius: 8%;
+                    position: relative;
+                    max-width:300px;
+                    margin: 0 auto;
+                  }
+                  
+                  .xii image {vertical-align: middle;}
+                  
+                    .xii {
+                    position: absolute;
+                    top: 45%;
+                    right: 50%;
+                    background: rgb(0, 0, 0); /* Fallback color */
+                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                    color: #f1f1f1;
+                    }
+
+                    .xiii {
+                      padding: 15px 10px 15px 10px;
+                      box-sizing: border-box;
+                      border-radius: 8%;
+                      position: relative;
+                      max-width:300px;
+                      margin: 0 auto;
+                    }
+                    
+                    .xiii image {vertical-align: middle;}
+                    
+                      .xiii {
+                      position: absolute;
+                      top: 45%;
+                      right: 30%;
+                      background: rgb(0, 0, 0); /* Fallback color */
+                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                      color: #f1f1f1;
+                      }
+                      .xiv {
+                        padding: 15px 10px 15px 10px;
+                        box-sizing: border-box;
+                        border-radius: 8%;
+                        position: relative;
+                        max-width:300px;
+                        margin: 0 auto;
+                      }
+                      
+                      .xiv image {vertical-align: middle;}
+                      
+                        .xiv {
+                        position: absolute;
+                        top: 45%;
+                        right: 10%;
+                        background: rgb(0, 0, 0); /* Fallback color */
+                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                        color: #f1f1f1;
+                        }
+
+                        .xv {
+                          padding: 15px 10px 15px 10px;
+                          box-sizing: border-box;
+                          border-radius: 8%;
+                          position: relative;
+                          max-width:300px;
+                          margin: 0 auto;
+                        }
+                        
+                        .xv image {vertical-align: middle;}
+                        
+                          .xv {
+                          position: absolute;
+                          top: 105%;
+                          right: 70%;
+                          background: rgb(0, 0, 0); /* Fallback color */
+                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                          color: #f1f1f1;
+                          }
+
+                          .xvi {
+                            padding: 15px 10px 15px 10px;
+                            box-sizing: border-box;
+                            border-radius: 8%;
+                            position: relative;
+                            max-width:300px;
+                            margin: 0 auto;
+                          }
+                          
+                          .xvi image {vertical-align: middle;}
+                          
+                            .xvi {
+                            position: absolute;
+                            top: 105%;
+                            right: 50%;
+                            background: rgb(0, 0, 0); /* Fallback color */
+                            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                            color: #f1f1f1;
+                            }
+
+                            .xvii {
+                              padding: 15px 10px 15px 10px;
+                              box-sizing: border-box;
+                              border-radius: 8%;
+                              position: relative;
+                              max-width:300px;
+                              margin: 0 auto;
+                            }
+                            
+                            .xvii image {vertical-align: middle;}
+                            
+                              .xvii {
+                              position: absolute;
+                              top: 105%;
+                              right: 30%;
+                              background: rgb(0, 0, 0); /* Fallback color */
+                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                              color: #f1f1f1;
+                              }
+
+                              .xviii {
+                                padding: 15px 10px 15px 10px;
+                                box-sizing: border-box;
+                                border-radius: 8%;
+                                position: relative;
+                                max-width:300px;
+                                margin: 0 auto;
+                              }
+                              
+                              .xviii image {vertical-align: middle;}
+                              
+                                .xviii {
+                                position: absolute;
+                                top: 105%;
+                                right: 10%;
+                                background: rgb(0, 0, 0); /* Fallback color */
+                                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                color: #f1f1f1;
+                                }                
+                .first {
+                  padding: 15px 10px 15px 10px;
+                  box-sizing: border-box;
+                  border-radius: 8%;
+                  position: relative;
+                  max-width:300px;
+                  margin: 0 auto;
+                }
+                
+                .first image {vertical-align: middle;}
+                
+                  .first {
+                  position: absolute;
+                  top: 170%;
+                  right: 70%;
+                  background: rgb(0, 0, 0); /* Fallback color */
+                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                  color: #f1f1f1;
+                  }
+
+                  .second {
+                    padding: 15px 10px 15px 10px;
+                    box-sizing: border-box;
+                    border-radius: 8%;
+                    position: relative;
+                    max-width:300px;
+                    margin: 0 auto;
+                  }
+                  
+                  .second image {vertical-align: middle;}
+                  
+                    .second {
+                    position: absolute;
+                    top: 170%;
+                    right: 50%;
+                    background: rgb(0, 0, 0); /* Fallback color */
+                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                    color: #f1f1f1;
+                    }
+
+                    .third {
+                      padding: 15px 10px 15px 10px;
+                      box-sizing: border-box;
+                      border-radius: 8%;
+                      position: relative;
+                      max-width:300px;
+                      margin: 0 auto;
+                    }
+                    
+                    .third image {vertical-align: middle;}
+                    
+                      .third {
+                      position: absolute;
+                      top: 170%;
+                      right: 30%;
+                      background: rgb(0, 0, 0); /* Fallback color */
+                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                      color: #f1f1f1;
+                      }
+                      .four {
+                        padding: 15px 10px 15px 10px;
+                        box-sizing: border-box;
+                        border-radius: 8%;
+                        position: relative;
+                        max-width:300px;
+                        margin: 0 auto;
+                      }
+                      
+                      .four image {vertical-align: middle;}
+                      
+                        .four {
+                        position: absolute;
+                        top: 170%;
+                        right: 10%;
+                        background: rgb(0, 0, 0); /* Fallback color */
+                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                        color: #f1f1f1;
+                        }
+
+                        .five {
+                          padding: 15px 10px 15px 10px;
+                          box-sizing: border-box;
+                          border-radius: 8%;
+                          position: relative;
+                          max-width:300px;
+                          margin: 0 auto;
+                        }
+                        
+                        .five image {vertical-align: middle;}
+                        
+                          .five {
+                          position: absolute;
+                          top: 225%;
+                          right: 70%;
+                          background: rgb(0, 0, 0); /* Fallback color */
+                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                          color: #f1f1f1;
+                          }
+
+                          .six {
+                            padding: 15px 10px 15px 10px;
+                            box-sizing: border-box;
+                            border-radius: 8%;
+                            position: relative;
+                            max-width:300px;
+                            margin: 0 auto;
+                          }
+                          
+                          .six image {vertical-align: middle;}
+                          
+                            .six {
+                            position: absolute;
+                            top: 225%;
+                            right: 50%;
+                            background: rgb(0, 0, 0); /* Fallback color */
+                            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                            color: #f1f1f1;
+                            }
+
+                            .seven {
+                              padding: 15px 10px 15px 10px;
+                              box-sizing: border-box;
+                              border-radius: 8%;
+                              position: relative;
+                              max-width:300px;
+                              margin: 0 auto;
+                            }
+                            
+                            .seven image {vertical-align: middle;}
+                            
+                              .seven {
+                              position: absolute;
+                              top: 225%;
+                              right: 30%;
+                              background: rgb(0, 0, 0); /* Fallback color */
+                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                              color: #f1f1f1;
+                              }
+
+                              .eight {
+                                padding: 15px 10px 15px 10px;
+                                box-sizing: border-box;
+                                border-radius: 8%;
+                                position: relative;
+                                max-width:300px;
+                                margin: 0 auto;
+                              }
+                              
+                              .eight image {vertical-align: middle;}
+                              
+                                .eight {
+                                position: absolute;
+                                top: 225%;
+                                right: 10%;
+                                background: rgb(0, 0, 0); /* Fallback color */
+                                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                color: #f1f1f1;
+                                }
+                                .aa {
+                                  padding: 15px 10px 15px 10px;
+                                  box-sizing: border-box;
+                                  border-radius: 8%;
+                                  position: relative;
+                                  max-width:300px;
+                                  margin: 0 auto;
+                                }
+                                
+                                .aa image {vertical-align: middle;}
+                                
+                                  .aa {
+                                  position: absolute;
+                                  top: 285%;
+                                  right: 70%;
+                                  background: rgb(0, 0, 0); /* Fallback color */
+                                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                  color: #f1f1f1;
+                                  }
+                
+                                  .bb {
+                                    padding: 15px 10px 15px 10px;
+                                    box-sizing: border-box;
+                                    border-radius: 8%;
+                                    position: relative;
+                                    max-width:300px;
+                                    margin: 0 auto;
+                                  }
+                                  
+                                  .bb image {vertical-align: middle;}
+                                  
+                                    .bb {
+                                    position: absolute;
+                                    top: 285%;
+                                    right: 50%;
+                                    background: rgb(0, 0, 0); /* Fallback color */
+                                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                    color: #f1f1f1;
+                                    }
+                
+                                    .cc {
+                                      padding: 15px 10px 15px 10px;
+                                      box-sizing: border-box;
+                                      border-radius: 8%;
+                                      position: relative;
+                                      max-width:300px;
+                                      margin: 0 auto;
+                                    }
+                                    
+                                    .cc image {vertical-align: middle;}
+                                    
+                                      .cc {
+                                      position: absolute;
+                                      top: 285%;
+                                      right: 30%;
+                                      background: rgb(0, 0, 0); /* Fallback color */
+                                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                      color: #f1f1f1;
+                                      }
+                                      .dd {
+                                        padding: 15px 10px 15px 10px;
+                                        box-sizing: border-box;
+                                        border-radius: 8%;
+                                        position: relative;
+                                        max-width:300px;
+                                        margin: 0 auto;
+                                      }
+                                      
+                                      .dd image {vertical-align: middle;}
+                                      
+                                        .dd {
+                                        position: absolute;
+                                        top: 285%;
+                                        right: 10%;
+                                        background: rgb(0, 0, 0); /* Fallback color */
+                                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                        color: #f1f1f1;
+                                        }
+                
+                                        .ee {
+                                          padding: 15px 10px 15px 10px;
+                                          box-sizing: border-box;
+                                          border-radius: 8%;
+                                          position: relative;
+                                          max-width:300px;
+                                          margin: 0 auto;
+                                        }
+                                        
+                                        .ee image {vertical-align: middle;}
+                                        
+                                          .ee {
+                                          position: absolute;
+                                          top: 330%;
+                                          right: 70%;
+                                          background: rgb(0, 0, 0); /* Fallback color */
+                                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                          color: #f1f1f1;
+                                          }
+                
+                                          .ff {
+                                            padding: 15px 10px 15px 10px;
+                                            box-sizing: border-box;
+                                            border-radius: 8%;
+                                            position: relative;
+                                            max-width:300px;
+                                            margin: 0 auto;
+                                          }
+                                          
+                                          .ff image {vertical-align: middle;}
+                                          
+                                            .ff {
+                                            position: absolute;
+                                            top: 330%;
+                                            right: 50%;
+                                            background: rgb(0, 0, 0); /* Fallback color */
+                                            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                            color: #f1f1f1;
+                                            }
+                
+                                            .gg {
+                                              padding: 15px 10px 15px 10px;
+                                              box-sizing: border-box;
+                                              border-radius: 8%;
+                                              position: relative;
+                                              max-width:300px;
+                                              margin: 0 auto;
+                                            }
+                                            
+                                            .gg image {vertical-align: middle;}
+                                            
+                                              .gg {
+                                              position: absolute;
+                                              top: 330%;
+                                              right: 30%;
+                                              background: rgb(0, 0, 0); /* Fallback color */
+                                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                              color: #f1f1f1;
+                                              }
+                
+                                              .hh {
+                                                padding: 15px 10px 15px 10px;
+                                                box-sizing: border-box;
+                                                border-radius: 8%;
+                                                position: relative;
+                                                max-width:300px;
+                                                margin: 0 auto;
+                                              }
+                                              
+                                              .hh image {vertical-align: middle;}
+                                              
+                                                .hh {
+                                                position: absolute;
+                                                top: 330%;
+                                                right: 10%;
+                                                background: rgb(0, 0, 0); /* Fallback color */
+                                                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                color: #f1f1f1;
+                                                }
+                                                .aaa {
+                                                  padding: 15px 10px 15px 10px;
+                                                  box-sizing: border-box;
+                                                  border-radius: 8%;
+                                                  position: relative;
+                                                  max-width:300px;
+                                                  margin: 0 auto;
+                                                }
+                                                
+                                                .aaa image {vertical-align: middle;}
+                                                
+                                                  .aaa {
+                                                  position: absolute;
+                                                  top: 390%;
+                                                  right: 70%;
+                                                  background: rgb(0, 0, 0); /* Fallback color */
+                                                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                  color: #f1f1f1;
+                                                  }
+                                
+                                                  .bbb {
+                                                    padding: 15px 10px 15px 10px;
+                                                    box-sizing: border-box;
+                                                    border-radius: 8%;
+                                                    position: relative;
+                                                    max-width:300px;
+                                                    margin: 0 auto;
+                                                  }
+                                                  
+                                                  .bbb image {vertical-align: middle;}
+                                                  
+                                                    .bbb {
+                                                    position: absolute;
+                                                    top: 390%;
+                                                    right: 50%;
+                                                    background: rgb(0, 0, 0); /* Fallback color */
+                                                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                    color: #f1f1f1;
+                                                    }
+                                
+                                                    .ccc {
+                                                      padding: 15px 10px 15px 10px;
+                                                      box-sizing: border-box;
+                                                      border-radius: 8%;
+                                                      position: relative;
+                                                      max-width:300px;
+                                                      margin: 0 auto;
+                                                    }
+                                                    
+                                                    .ccc image {vertical-align: middle;}
+                                                    
+                                                      .ccc {
+                                                      position: absolute;
+                                                      top: 390%;
+                                                      right: 30%;
+                                                      background: rgb(0, 0, 0); /* Fallback color */
+                                                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                      color: #f1f1f1;
+                                                      }
+                                                      .ddd {
+                                                        padding: 15px 10px 15px 10px;
+                                                        box-sizing: border-box;
+                                                        border-radius: 8%;
+                                                        position: relative;
+                                                        max-width:300px;
+                                                        margin: 0 auto;
+                                                      }
+                                                      
+                                                      .ddd image {vertical-align: middle;}
+                                                      
+                                                        .ddd {
+                                                        position: absolute;
+                                                        top: 390%;
+                                                        right: 10%;
+                                                        background: rgb(0, 0, 0); /* Fallback color */
+                                                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                        color: #f1f1f1;
+                                                        }
+                                
+                                                        .eee {
+                                                          padding: 15px 10px 15px 10px;
+                                                          box-sizing: border-box;
+                                                          border-radius: 8%;
+                                                          position: relative;
+                                                          max-width:300px;
+                                                          margin: 0 auto;
+                                                        }
+                                                        
+                                                        .eee image {vertical-align: middle;}
+                                                        
+                                                          .eee {
+                                                          position: absolute;
+                                                          top: 440%;
+                                                          right: 70%;
+                                                          background: rgb(0, 0, 0); /* Fallback color */
+                                                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                          color: #f1f1f1;
+                                                          }
+                                                          .aaaa {
+                                                            padding: 15px 10px 15px 10px;
+                                                            box-sizing: border-box;
+                                                            border-radius: 8%;
+                                                            position: relative;
+                                                            max-width:300px;
+                                                            margin: 0 auto;
+                                                          }
+                                                          
+                                                          .aaaa {vertical-align: middle;}
+                                                          
+                                                            .aaaa {
+                                                            position: absolute;
+                                                            top: 505%;
+                                                            right: 70%;
+                                                            background: rgb(0, 0, 0); /* Fallback color */
+                                                            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                            color: #f1f1f1;
+                                                            }
+                                          
+                                                            .bbbb {
+                                                              padding: 15px 10px 15px 10px;
+                                                              box-sizing: border-box;
+                                                              border-radius: 8%;
+                                                              position: relative;
+                                                              max-width:300px;
+                                                              margin: 0 auto;
+                                                            }
+                                                            
+                                                            .bbbb image {vertical-align: middle;}
+                                                            
+                                                              .bbbb {
+                                                              position: absolute;
+                                                              top: 505%;
+                                                              right: 50%;
+                                                              background: rgb(0, 0, 0); /* Fallback color */
+                                                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                              color: #f1f1f1;
+                                                              }
+                                          
+                                                              .cccc {
+                                                                padding: 15px 10px 15px 10px;
+                                                                box-sizing: border-box;
+                                                                border-radius: 8%;
+                                                                position: relative;
+                                                                max-width:300px;
+                                                                margin: 0 auto;
+                                                              }
+                                                              
+                                                              .cccc image {vertical-align: middle;}
+                                                              
+                                                                .cccc {
+                                                                position: absolute;
+                                                                top: 505%;
+                                                                right: 30%;
+                                                                background: rgb(0, 0, 0); /* Fallback color */
+                                                                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                color: #f1f1f1;
+                                                                }
+                                                                .dddd {
+                                                                  padding: 15px 10px 15px 10px;
+                                                                  box-sizing: border-box;
+                                                                  border-radius: 8%;
+                                                                  position: relative;
+                                                                  max-width:300px;
+                                                                  margin: 0 auto;
+                                                                }
+                                                                
+                                                                .dddd image {vertical-align: middle;}
+                                                                
+                                                                  .dddd {
+                                                                  position: absolute;
+                                                                  top: 505%;
+                                                                  right: 10%;
+                                                                  background: rgb(0, 0, 0); /* Fallback color */
+                                                                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                  color: #f1f1f1;
+                                                                  }
+                                          
+                                                                  .eeee {
+                                                                    padding: 15px 10px 15px 10px;
+                                                                    box-sizing: border-box;
+                                                                    border-radius: 8%;
+                                                                    position: relative;
+                                                                    max-width:300px;
+                                                                    margin: 0 auto;
+                                                                  }
+                                                                  
+                                                                  .eeee image {vertical-align: middle;}
+                                                                  
+                                                                    .eeee {
+                                                                    position: absolute;
+                                                                    top: 550%;
+                                                                    right: 70%;
+                                                                    background: rgb(0, 0, 0); /* Fallback color */
+                                                                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                    color: #f1f1f1;
+                                                                    }
+                                          
+                                                                    .ffff {
+                                                                      padding: 15px 10px 15px 10px;
+                                                                      box-sizing: border-box;
+                                                                      border-radius: 8%;
+                                                                      position: relative;
+                                                                      max-width:300px;
+                                                                      margin: 0 auto;
+                                                                    }
+                                                                    
+                                                                    .ffff image {vertical-align: middle;}
+                                                                    
+                                                                      .ffff {
+                                                                      position: absolute;
+                                                                      top: 550%;
+                                                                      right: 50%;
+                                                                      background: rgb(0, 0, 0); /* Fallback color */
+                                                                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                      color: #f1f1f1;
+                                                                      }
+                                          
+                                                                      .gggg {
+                                                                        padding: 15px 10px 15px 10px;
+                                                                        box-sizing: border-box;
+                                                                        border-radius: 8%;
+                                                                        position: relative;
+                                                                        max-width:300px;
+                                                                        margin: 0 auto;
+                                                                      }
+                                                                      
+                                                                      .gggg image {vertical-align: middle;}
+                                                                      
+                                                                        .gggg {
+                                                                        position: absolute;
+                                                                        top: 550%;
+                                                                        right: 30%;
+                                                                        background: rgb(0, 0, 0); /* Fallback color */
+                                                                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                        color: #f1f1f1;
+                                                                        }
+                                          
+                                                                        .hhhh {
+                                                                          padding: 15px 10px 15px 10px;
+                                                                          box-sizing: border-box;
+                                                                          border-radius: 8%;
+                                                                          position: relative;
+                                                                          max-width:300px;
+                                                                          margin: 0 auto;
+                                                                        }
+                                                                        
+                                                                        .hhhh image {vertical-align: middle;}
+                                                                        
+                                                                          .hhhh {
+                                                                          position: absolute;
+                                                                          top: 550%;
+                                                                          right: 10%;
+                                                                          background: rgb(0, 0, 0); /* Fallback color */
+                                                                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                          color: #f1f1f1;
+                                                                          }
+                                                                          .oo {
+                                                                            padding: 15px 10px 15px 10px;
+                                                                            box-sizing: border-box;
+                                                                            border-radius: 8%;
+                                                                            position: relative;
+                                                                            max-width:300px;
+                                                                            margin: 0 auto;
+                                                                          }
+                                                                          
+                                                                          .oo image {vertical-align: middle;}
+                                                                          
+                                                                            .oo {
+                                                                            position: absolute;
+                                                                            top: 602%;
+                                                                            right: 70%;
+                                                                            background: rgb(0, 0, 0); /* Fallback color */
+                                                                            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                            color: #f1f1f1;
+                                                                            }
+                                                          
+                                                                            .pp {
+                                                                                padding: 15px 10px 15px 10px;
+                                                                                box-sizing: border-box;
+                                                                                border-radius: 8%;
+                                                                                position: relative;
+                                                                                max-width:300px;
+                                                                                margin: 0 auto;
+                                                                              }
+                                                                              
+                                                                              .pp image {vertical-align: middle;}
+                                                                            
+                                                                              .pp {
+                                                                              position: absolute;
+                                                                              top: 602%;
+                                                                              right: 50%;
+                                                                              background: rgb(0, 0, 0); /* Fallback color */
+                                                                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                              color: #f1f1f1;
+                                                                              }
+                                                                              .iii {
+                                                                                padding: 15px 10px 15px 10px;
+                                                                                box-sizing: border-box;
+                                                                                border-radius: 8%;
+                                                                                position: relative;
+                                                                                max-width:300px;
+                                                                                margin: 0 auto;
+                                                                              }
+                                                                              
+                                                                              .iii image {vertical-align: middle;}
+                                                                              
+                                                                                .iii {
+                                                                                position: absolute;
+                                                                                top: 655%;
+                                                                                right: 70%;
+                                                                                background: rgb(0, 0, 0); /* Fallback color */
+                                                                                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                color: #f1f1f1;
+                                                                                }
+                                                              
+                                                                                .iv {
+                                                                                  padding: 15px 10px 15px 10px;
+                                                                                  box-sizing: border-box;
+                                                                                  border-radius: 8%;
+                                                                                  position: relative;
+                                                                                  max-width:300px;
+                                                                                  margin: 0 auto;
+                                                                                }
+                                                                                
+                                                                                .iv image {vertical-align: middle;}
+                                                                                
+                                                                                  .iv {
+                                                                                  position: absolute;
+                                                                                  top: 655%;
+                                                                                  right: 50%;
+                                                                                  background: rgb(0, 0, 0); /* Fallback color */
+                                                                                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                  color: #f1f1f1;
+                                                                                  }
+                                                              
+                                                                                  .v {
+                                                                                    padding: 15px 10px 15px 10px;
+                                                                                    box-sizing: border-box;
+                                                                                    border-radius: 8%;
+                                                                                    position: relative;
+                                                                                    max-width:300px;
+                                                                                    margin: 0 auto;
+                                                                                  }
+                                                                                  
+                                                                                  .v image {vertical-align: middle;}
+                                                                                  
+                                                                                    .v {
+                                                                                    position: absolute;
+                                                                                    top: 655%;
+                                                                                    right: 30%;
+                                                                                    background: rgb(0, 0, 0); /* Fallback color */
+                                                                                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                    color: #f1f1f1;
+                                                                                    }
+                                                                                    .vi {
+                                                                                      padding: 15px 10px 15px 10px;
+                                                                                      box-sizing: border-box;
+                                                                                      border-radius: 8%;
+                                                                                      position: relative;
+                                                                                      max-width:300px;
+                                                                                      margin: 0 auto;
+                                                                                    }
+                                                                                    
+                                                                                    .vi image {vertical-align: middle;}
+                                                                                    
+                                                                                      .vi {
+                                                                                      position: absolute;
+                                                                                      top: 655%;
+                                                                                      right: 10%;
+                                                                                      background: rgb(0, 0, 0); /* Fallback color */
+                                                                                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                      color: #f1f1f1;
+                                                                                      }
+                                                              
+                                                                                      .vii {
+                                                                                        padding: 15px 10px 15px 10px;
+                                                                                        box-sizing: border-box;
+                                                                                        border-radius: 8%;
+                                                                                        position: relative;
+                                                                                        max-width:300px;
+                                                                                        margin: 0 auto;
+                                                                                      }
+                                                                                      
+                                                                                      .vii image {vertical-align: middle;}
+                                                                                      
+                                                                                        .vii {
+                                                                                        position: absolute;
+                                                                                        top: 700%;
+                                                                                        right: 70%;
+                                                                                        background: rgb(0, 0, 0); /* Fallback color */
+                                                                                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                        color: #f1f1f1;
+                                                                                        }
+                                                              
+                                                                                        .viii {
+                                                                                          padding: 15px 10px 15px 10px;
+                                                                                          box-sizing: border-box;
+                                                                                          border-radius: 8%;
+                                                                                          position: relative;
+                                                                                          max-width:300px;
+                                                                                          margin: 0 auto;
+                                                                                        }
+                                                                                        
+                                                                                        .viii image {vertical-align: middle;}
+                                                                                        
+                                                                                          .viii {
+                                                                                          position: absolute;
+                                                                                          top: 700%;
+                                                                                          right: 50%;
+                                                                                          background: rgb(0, 0, 0); /* Fallback color */
+                                                                                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                          color: #f1f1f1;
+                                                                                          }
+                                                              
+                                                                                          .i {
+                                                                                            padding: 15px 10px 15px 10px;
+                                                                                            box-sizing: border-box;
+                                                                                            border-radius: 8%;
+                                                                                            position: relative;
+                                                                                            max-width:300px;
+                                                                                            margin: 0 auto;
+                                                                                          }
+                                                                                          
+                                                                                          .i image {vertical-align: middle;}
+                                                                                          
+                                                                                            .i {
+                                                                                            position: absolute;
+                                                                                            top: 700%;
+                                                                                            right: 30%;
+                                                                                            background: rgb(0, 0, 0); /* Fallback color */
+                                                                                            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                            color: #f1f1f1;
+                                                                                            }
+                                                              
+                                                                                            .ii {
+                                                                                              padding: 15px 10px 15px 10px;
+                                                                                              box-sizing: border-box;
+                                                                                              border-radius: 8%;
+                                                                                              position: relative;
+                                                                                              max-width:300px;
+                                                                                              margin: 0 auto;
+                                                                                            }
+                                                                                            
+                                                                                            .ii image {vertical-align: middle;}
+                                                                                            
+                                                                                              .ii {
+                                                                                              position: absolute;
+                                                                                              top: 700%;
+                                                                                              right: 10%;
+                                                                                              background: rgb(0, 0, 0); /* Fallback color */
+                                                                                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                              color: #f1f1f1;
+                                                                                              }
+
+                                                                                              .jj {
+                                                                                                padding: 15px 10px 15px 10px;
+                                                                                                box-sizing: border-box;
+                                                                                                border-radius: 8%;
+                                                                                                position: relative;
+                                                                                                max-width:300px;
+                                                                                                margin: 0 auto;
+                                                                                              }
+                                                                                              
+                                                                                              .jj image {vertical-align: middle;}
+                                                                                              
+                                                                                                .jj {
+                                                                                                position: absolute;
+                                                                                                top: 755%;
+                                                                                                right: 70%;
+                                                                                                background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                color: #f1f1f1;
+                                                                                                }
+                                                                              
+                                                                                                .kk {
+                                                                                                  padding: 15px 10px 15px 10px;
+                                                                                                  box-sizing: border-box;
+                                                                                                  border-radius: 8%;
+                                                                                                  position: relative;
+                                                                                                  max-width:300px;
+                                                                                                  margin: 0 auto;
+                                                                                                }
+                                                                                                
+                                                                                                .kk image {vertical-align: middle;}
+                                                                                                
+                                                                                                  .kk {
+                                                                                                  position: absolute;
+                                                                                                  top: 755%;
+                                                                                                  right: 50%;
+                                                                                                  background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                  color: #f1f1f1;
+                                                                                                  }
+                                                                              
+                                                                                                  .ll {
+                                                                                                    padding: 15px 10px 15px 10px;
+                                                                                                    box-sizing: border-box;
+                                                                                                    border-radius: 8%;
+                                                                                                    position: relative;
+                                                                                                    max-width:300px;
+                                                                                                    margin: 0 auto;
+                                                                                                  }
+                                                                                                  
+                                                                                                  .ll image {vertical-align: middle;}
+                                                                                                  
+                                                                                                    .ll {
+                                                                                                    position: absolute;
+                                                                                                    top: 755%;
+                                                                                                    right: 30%;
+                                                                                                    background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                    color: #f1f1f1;
+                                                                                                    }
+                                                                                                    .mm {
+                                                                                                      padding: 15px 10px 15px 10px;
+                                                                                                      box-sizing: border-box;
+                                                                                                      border-radius: 8%;
+                                                                                                      position: relative;
+                                                                                                      max-width:300px;
+                                                                                                      margin: 0 auto;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .mm image {vertical-align: middle;}
+                                                                                                    
+                                                                                                      .mm {
+                                                                                                      position: absolute;
+                                                                                                      top: 755%;
+                                                                                                      right: 10%;
+                                                                                                      background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                      color: #f1f1f1;
+                                                                                                      }
+                                                                              
+                                                                                                      .nn {
+                                                                                                        padding: 15px 10px 15px 10px;
+                                                                                                        box-sizing: border-box;
+                                                                                                        border-radius: 8%;
+                                                                                                        position: relative;
+                                                                                                        max-width:300px;
+                                                                                                        margin: 0 auto;
+                                                                                                      }
+                                                                                                      
+                                                                                                      .nn image {vertical-align: middle;}
+                                                                                                      
+                                                                                                        .nn {
+                                                                                                        position: absolute;
+                                                                                                        top: 800%;
+                                                                                                        right: 70%;
+                                                                                                        background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                        color: #f1f1f1;
+                                                                                                        }
+                                                                              
+                                                                                                        .qq {
+                                                                                                          padding: 15px 10px 15px 10px;
+                                                                                                          box-sizing: border-box;
+                                                                                                          border-radius: 8%;
+                                                                                                          position: relative;
+                                                                                                          max-width:300px;
+                                                                                                          margin: 0 auto;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .qq image {vertical-align: middle;}
+                                                                                                        
+                                                                                                          .qq {
+                                                                                                          position: absolute;
+                                                                                                          top: 800%;
+                                                                                                          right: 50%;
+                                                                                                          background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                          color: #f1f1f1;
+                                                                                                          }
+                                                                              
+                                                                                                          .rr {
+                                                                                                            padding: 15px 10px 15px 10px;
+                                                                                                            box-sizing: border-box;
+                                                                                                            border-radius: 8%;
+                                                                                                            position: relative;
+                                                                                                            max-width:300px;
+                                                                                                            margin: 0 auto;
+                                                                                                          }
+                                                                                                          
+                                                                                                          .rr image {vertical-align: middle;}
+                                                                                                          
+                                                                                                            .rr {
+                                                                                                            position: absolute;
+                                                                                                            top: 800%;
+                                                                                                            right: 30%;
+                                                                                                            background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                            color: #f1f1f1;
+                                                                                                            }
+                                                                              
+                                                                                                            .ss {
+                                                                                                              padding: 15px 10px 15px 10px;
+                                                                                                              box-sizing: border-box;
+                                                                                                              border-radius: 8%;
+                                                                                                              position: relative;
+                                                                                                              max-width:300px;
+                                                                                                              margin: 0 auto;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .ss image {vertical-align: middle;}
+                                                                                                            
+                                                                                                              .ss {
+                                                                                                              position: absolute;
+                                                                                                              top: 800%;
+                                                                                                              right: 10%;
+                                                                                                              background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                              color: #f1f1f1;
+                                                                                                              }
+
+                                                                                                              .tt {
+                                                                                                                padding: 15px 10px 15px 10px;
+                                                                                                                box-sizing: border-box;
+                                                                                                                border-radius: 8%;
+                                                                                                                position: relative;
+                                                                                                                max-width:300px;
+                                                                                                                margin: 0 auto;
+                                                                                                              }
+                                                                                                              
+                                                                                                              .tt image {vertical-align: middle;}
+                                                                                                              
+                                                                                                                .tt {
+                                                                                                                position: absolute;
+                                                                                                                top: 855%;
+                                                                                                                right: 70%;
+                                                                                                                background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                                color: #f1f1f1;
+                                                                                                                }
+                                                                                              
+                                                                                                                .uu {
+                                                                                                                  padding: 15px 10px 15px 10px;
+                                                                                                                  box-sizing: border-box;
+                                                                                                                  border-radius: 8%;
+                                                                                                                  position: relative;
+                                                                                                                  max-width:300px;
+                                                                                                                  margin: 0 auto;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .uu image {vertical-align: middle;}
+                                                                                                                
+                                                                                                                  .uu {
+                                                                                                                  position: absolute;
+                                                                                                                  top: 855%;
+                                                                                                                  right: 50%;
+                                                                                                                  background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                                  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                                  color: #f1f1f1;
+                                                                                                                  }
+                                                                                              
+                                                                                                                  .ww {
+                                                                                                                    padding: 15px 10px 15px 10px;
+                                                                                                                    box-sizing: border-box;
+                                                                                                                    border-radius: 8%;
+                                                                                                                    position: relative;
+                                                                                                                    max-width:300px;
+                                                                                                                    margin: 0 auto;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .ww image {vertical-align: middle;}
+                                                                                                                  
+                                                                                                                    .ww {
+                                                                                                                    position: absolute;
+                                                                                                                    top: 855%;
+                                                                                                                    right: 30%;
+                                                                                                                    background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                                    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                                    color: #f1f1f1;
+                                                                                                                    }
+                                                                                                                    .xx {
+                                                                                                                      padding: 15px 10px 15px 10px;
+                                                                                                                      box-sizing: border-box;
+                                                                                                                      border-radius: 8%;
+                                                                                                                      position: relative;
+                                                                                                                      max-width:300px;
+                                                                                                                      margin: 0 auto;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .xx image {vertical-align: middle;}
+                                                                                                                    
+                                                                                                                      .xx {
+                                                                                                                      position: absolute;
+                                                                                                                      top: 855%;
+                                                                                                                      right: 10%;
+                                                                                                                      background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                                      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                                      color: #f1f1f1;
+                                                                                                                      }
+                                                                                              
+                                                                                                                      .yy {
+                                                                                                                        padding: 15px 10px 15px 10px;
+                                                                                                                        box-sizing: border-box;
+                                                                                                                        border-radius: 8%;
+                                                                                                                        position: relative;
+                                                                                                                        max-width:300px;
+                                                                                                                        margin: 0 auto;
+                                                                                                                      }
+                                                                                                                      
+                                                                                                                      .yy image {vertical-align: middle;}
+                                                                                                                      
+                                                                                                                        .yy {
+                                                                                                                        position: absolute;
+                                                                                                                        top: 900%;
+                                                                                                                        right: 70%;
+                                                                                                                        background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                                        color: #f1f1f1;
+                                                                                                                        }
+                                                                                              
+                                                                                                                        .zz {
+                                                                                                                          padding: 15px 10px 15px 10px;
+                                                                                                                          box-sizing: border-box;
+                                                                                                                          border-radius: 8%;
+                                                                                                                          position: relative;
+                                                                                                                          max-width:300px;
+                                                                                                                          margin: 0 auto;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .zz image {vertical-align: middle;}
+                                                                                                                        
+                                                                                                                          .zz {
+                                                                                                                          position: absolute;
+                                                                                                                          top: 900%;
+                                                                                                                          right: 50%;
+                                                                                                                          background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                                          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                                          color: #f1f1f1;
+                                                                                                                          }
+                                                                                              
+                                                                                                                          .zzz {
+                                                                                                                            padding: 15px 10px 15px 10px;
+                                                                                                                            box-sizing: border-box;
+                                                                                                                            border-radius: 8%;
+                                                                                                                            position: relative;
+                                                                                                                            max-width:300px;
+                                                                                                                            margin: 0 auto;
+                                                                                                                          }
+                                                                                                                          
+                                                                                                                          .zzz image {vertical-align: middle;}
+                                                                                                                          
+                                                                                                                            .zzz {
+                                                                                                                            position: absolute;
+                                                                                                                            top: 900%;
+                                                                                                                            right: 30%;
+                                                                                                                            background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                                            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                                            color: #f1f1f1;
+                                                                                                                            }
+                                                                                              
+                                                                                                                            .yyy {
+                                                                                                                              padding: 15px 10px 15px 10px;
+                                                                                                                              box-sizing: border-box;
+                                                                                                                              border-radius: 8%;
+                                                                                                                              position: relative;
+                                                                                                                              max-width:300px;
+                                                                                                                              margin: 0 auto;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .yyy image {vertical-align: middle;}
+                                                                                                                            
+                                                                                                                              .yyy {
+                                                                                                                              position: absolute;
+                                                                                                                              top: 900%;
+                                                                                                                              right: 10%;
+                                                                                                                              background: rgb(0, 0, 0); /* Fallback color */
+                                                                                                                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                                                                                                              color: #f1f1f1;
+                                                                                                                              }
+

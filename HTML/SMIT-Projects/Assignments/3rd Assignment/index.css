@@ -60,9 +60,10 @@ a {
                 right: 37%;
                 background: rgb(0, 0, 0); /* Fallback color */
                 background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-                color: #f1f1f1;
-                
+                color: #f1f1f1; 
               }
+
+             
               .second {
                 padding: 18px 10px 60px 20px;
                 box-sizing: border-box;
