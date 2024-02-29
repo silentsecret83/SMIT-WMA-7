@@ -1,7 +1,6 @@
 *{
     font-family:calibri;
     font-style: normal;
-    /* border: 1px solid white; */
 }
 body{
     background-color: rgb(10, 25, 47);
@@ -67,7 +66,7 @@ a:hover{
 #img-align{
     align-items: center;
 }
-.vline-div{
+.vline{
     align-items: center;
     justify-content: center;
 }
@@ -113,7 +112,7 @@ a:hover{
     flex-direction: column;
     gap: 10px;
 }
-.all-body-div{
+.allbody{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -160,8 +159,6 @@ h2{
     color:  rgb(100, 255, 218);
 }
 
-
-/* Second page starts here */
 
 
 .about-me{
@@ -408,7 +405,6 @@ h1{
 }
 
 
-/* Something I've buit */
 
 .combined-podcast-image{
     display: flex;
