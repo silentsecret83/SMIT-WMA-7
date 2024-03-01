@@ -18,19 +18,18 @@ body{
     align-items: center;
     margin-right: 50px;
 }
-.numbers{
-    color: rgb(100, 255, 218);
-}
+
 a{
     font-size: large;
-    color:rgb(204, 214,246);
+    color: rgb(100, 255, 218);
     text-decoration: none;
-    font-family: monospace;
+font-family: monospace;
 }
-.navItems{
+.nav2{
     display: flex;
     flex-wrap: nowrap;
-    gap: 34px;
+    gap: 55px;
+    
 }
 a:hover{
     color:rgb(100, 255, 218) ;
@@ -49,7 +48,6 @@ a:hover{
     filter: opacity(85%);
 }
 
-/* Body-div sarts here */
 .margin-logo-div{
     margin: 0 3%;
     position: fixed;
@@ -70,7 +68,7 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
-.leftsticky{
+.social{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
