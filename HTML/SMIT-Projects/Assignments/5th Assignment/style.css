@@ -23,7 +23,8 @@ a{
     font-size: large;
     color: rgb(100, 255, 218);
     text-decoration: none;
-font-family: monospace;
+    font-family: monospace;
+
 }
 .nav2{
     display: flex;
@@ -48,23 +49,16 @@ a:hover{
     filter: opacity(85%);
 }
 
-.margin-logo-div{
-    margin: 0 3%;
-    position: fixed;
-    bottom: 0;
-}
+
 .spacebetween{
     display: flex;
     justify-content: space-between;
 }
-.line-div{    
-    height: 90px;
-    width: 10px;
-}
+
 #img-align{
     align-items: center;
 }
-.vline{
+.linelogo{
     align-items: center;
     justify-content: center;
 }
@@ -181,7 +175,7 @@ h1{
 #second-p{
     color: white;
     height: fit-content;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: ui-sans-serif; 
     font-style: normal;
     line-height: 26px;
     font-weight: 400;

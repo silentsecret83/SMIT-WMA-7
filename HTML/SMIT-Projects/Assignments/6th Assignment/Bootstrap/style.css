@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e3e6e6;
+  color: #0f1111;
+}
+
+.containerr {
+  width: 95%;
+  margin: auto;
+}
+.containerrr {
+  width: 97%;
+  margin: auto;
+}
+
+.bg-img {
+  height: 690px;
+  width: 100%;
+  background: url("./asets/bg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  background: #fff;
+}
+
+p {
+  font-size: small;
+}
+
+a {
+  font-size: small;
+}
+
+.box1 {
+  width: 355px;
+  height: 400px;
+}
+.box2 {
+  left: 395px;
+  width: 355px;
+  height: 400px;
+}
+.box3 {
+  left: 767px;
+  width: 355px;
+  height: 400px;
+}
+.box4 {
+  left: 1140px;
+  width: 355px;
+  height: 400px;
+}
