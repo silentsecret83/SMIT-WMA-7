@@ -23,6 +23,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -40,50 +41,113 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="#"
-              ><img src="./asets/logo.png" alt="logo" height="80px"
+              ><img src="./asets/logo.png" alt="logo" height="30px"
             /></a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-2">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><img src="./asets/pngtree.png" alt="address" width="10%" />
-                  <p>Delivery to <b>Pakistan </b></p></a
+                <div
+                  class="d-flex justify-content-start align-items-center gap-1 text-white col-12"
                 >
-                <form style="width: 30px" action="">
-                  <select
-                    class="form-select"
-                    aria-label="Default select example"
-                  >
-                    <option selected>All</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                </form>
+                  <div class="col-0">
+                    <img src="./asets/pngtree.png" alt="address" width="30px" />
+                  </div>
+
+                  <div class="col-12">
+                    Delivery to <br />
+                    Pakistan
+                  </div>
+                </div>
               </li>
             </ul>
 
-            <form class="d-flex w-75" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search Amazon"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                <img
-                  src="./asets/search-bar.png"
-                  alt="searchbar"
-                  width="20px"
-                />
-              </button>
-            </form>
-          </div>
+            <form
+              class="d-flex justify-content-start align-items-center col-12"
+              role="search"
+            >
+              <div class="ms-4 col-1">
+                <select
+                  class="form-select rounded-end-0 bg-light"
+                  aria-label="Default select example"
+                >
+                  <option selected>All</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
 
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, placeat!
-            </p>
+              <div class="col-5">
+                <input
+                  class="form-control rounded-0"
+                  type="search"
+                  placeholder="Search Amazon"
+                  aria-label="Search"
+                />
+              </div>
+
+              <div class="col-1">
+                <button
+                  class="btn btn-outline-success bg-warning rounded-start-0"
+                  type="submit"
+                >
+                  <img
+                    src="./asets/search-bar.png"
+                    alt="searchbar"
+                    width="25px"
+                  />
+                </button>
+              </div>
+
+              <div class="">
+                <select
+                  class="form-select rounded-end-0 bg-dark border-dark text-white col-1"
+                  aria-label="Default select example"
+                >
+                  <option selected>All</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="">
+                <select
+                  class="form-select rounded-end-0 bg-dark border-dark text-white col-1"
+                  aria-label="Default select example"
+                >
+                  <option selected>All</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="col-1">
+                <button
+                  class="btn btn-outline-success bg-warning rounded-start-0"
+                  type="submit"
+                >
+                  <img
+                    src="./asets/search-bar.png"
+                    alt="searchbar"
+                    width="25px"
+                  />
+                </button>
+              </div>
+
+              <div class="col-1">
+                <button
+                  class="btn btn-outline-success bg-warning rounded-start-0"
+                  type="submit"
+                >
+                  <img
+                    src="./asets/search-bar.png"
+                    alt="searchbar"
+                    width="25px"
+                  />
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </nav>
