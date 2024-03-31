@@ -22,9 +22,15 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
+    />
+>
   </head>
 
-  <body>
+  <body style="background-color: #e3e6e6;">
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -41,7 +47,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="#"
-              ><img src="./asets/logo.png" alt="logo" height="30px"
+              ><img
+                src="./asets/amazon-logo--text-removebg-preview.png"
+                alt="logo"
+                height="30px"
             /></a>
             <ul class="navbar-nav me-2">
               <li class="nav-item">
@@ -54,14 +63,14 @@
 
                   <div class="col-12">
                     Delivery to <br />
-                    Pakistan
+                    <b> Pakistan</b>
                   </div>
                 </div>
               </li>
             </ul>
 
             <form
-              class="d-flex justify-content-start align-items-center col-12"
+              class="d-flex justify-content-start align-items-center col-11"
               role="search"
             >
               <div class="ms-4 col-1">
@@ -97,60 +106,215 @@
                   />
                 </button>
               </div>
-
               <div class="">
-                <select
-                  class="form-select rounded-end-0 bg-dark border-dark text-white col-1"
-                  aria-label="Default select example"
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white fw-bold navlink"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  <option selected>All</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
+                  <span class="fi fi-us"></span> EN
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><span class="fi fi-us"></span> EN</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><span class="fi fi-ru"></span> RU</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><span class="fi fi-sn"></span> SN</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><span class="fi fi-pk"></span> UR</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </div>
+            />
+             
+              <li class="nav-item dropdown dropdn">
+                <a
+                  class="nav-link dropdown-toggle text-white navlink"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="font-size: 0.9rem"
+                >
+                  Hello, sign in <br />
+                  <b>Account & Lists</b>
+                </a>
+                <ul
+                  class="dropmenu dropdown-menu dropdown-menu-lg-end py-3 px-4"
+                  style="max-width: 500px"
+                >
+                  <div class="row p-3">
+                    <div
+                      class="col d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <p style="font-size: 0.8rem">
+                        See personalized recommendations
+                      </p>
+                      <a
+                        href="./login.html"
+                        class="btn btn-primary text-black mb-2"
+                        style="
+                          background-color: #ffc636;
+                          border: 1px solid #e6a400;
+                          width: 260px;
+                          font-size: 0.8rem;
+                          font-weight: 500;
+                        "
+                        >Sign in</a
+                      >
+                      <p style="font-size: 0.8rem">
+                        New customer? <a href="./signup.html">Start here</a>
+                      </p>
+                    </div>
+                    <hr />
+                  </div>
 
-              <div class="">
-                <select
-                  class="form-select rounded-end-0 bg-dark border-dark text-white col-1"
-                  aria-label="Default select example"
+                  <div class="row d-flex text-center text-md-start">
+                    <div class="col-sm-6 col-md-6 lh-1">
+                      <p style="font-size: 1rem" class="fw-bold">Your Lists</p>
+                      <p style="font-size: 0.8rem">Create a List</p>
+                      <p style="font-size: 0.8rem">Find a List or Registry</p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 lh-1">
+                      <p style="font-size: 1rem" class="fw-bold">
+                        Your Account
+                      </p>
+                      <p style="font-size: 0.8rem">Account</p>
+                      <p style="font-size: 0.8rem">Orders</p>
+                      <p style="font-size: 0.8rem">Recommendations</p>
+                      <p style="font-size: 0.8rem">Browsing History</p>
+                      <p style="font-size: 0.8rem">Watchlist</p>
+                      <p style="font-size: 0.8rem">
+                        Video Purchases and Rentals
+                      </p>
+                      <p style="font-size: 0.8rem">Kindle Unlimited</p>
+                      <p style="font-size: 0.8rem">Content & Devices</p>
+                      <p style="font-size: 0.8rem">Subscribe & Save Items</p>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              &nbsp &nbsp &nbsp
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white navlink"
+                  style="font-size: 0.9rem"
+                  href="#"
+                  >Returns & <b> Orders</b></a
                 >
-                  <option selected>All</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-
-              <div class="col-1">
-                <button
-                  class="btn btn-outline-success bg-warning rounded-start-0"
-                  type="submit"
+              </li>
+              &nbsp &nbsp &nbsp
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bold navlink"
+                  aria-disabled="true"
+                  ><img
+                    src="./asets/images-removebg-preview (1).png"
+                    alt="Cart"
+                    width="45px"
+                  />&nbsp&nbspCart</a
                 >
-                  <img
-                    src="./asets/search-bar.png"
-                    alt="searchbar"
-                    width="25px"
-                  />
-                </button>
-              </div>
-
-              <div class="col-1">
-                <button
-                  class="btn btn-outline-success bg-warning rounded-start-0"
-                  type="submit"
-                >
-                  <img
-                    src="./asets/search-bar.png"
-                    alt="searchbar"
-                    width="25px"
-                  />
-                </button>
-              </div>
+              </li>
             </form>
           </div>
         </div>
       </nav>
+
+
+      <div class="container-fluid d-flex justify-content-start align-items-center bar-2 z-2" style="background-color: #232F3E;">
+
+        <button class="btn text-white z-3 navlink" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="./asets/menu-removebg-preview.png" alt="Menu" width="25px"> All</button>
+
+        <div class="offcanvas offcanvas-start min-vh-100" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" style="max-width: 50%;">
+          <div class="w-100 position-relative">
+            <h5 class="text-white p-3" id="offcanvasWithBothOptionsLabel" style="background-color: #232F3E">  <a href="./login.html" class="text-decoration-none text-white"><img src="./asets/logo-hd--removebg-preview.png" alt="User" width="30px"> Hello, Sign In</h5></a>
+            
+          </div>
+          <div class="offcanvas-body">
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <h5 class="fw-bold">Digital Content & Devices</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Amazon Music</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Kindle E-readers & Books</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Amazon Appstore</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <h5 class="fw-bold">Shop by Department</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Electronics</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Computers</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Smart Home</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Arts & Crafts</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">See all 
+                <i class="fa-solid fa-chevron-down"></i> </a>
+            </div>
+            <hr>
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <h5 class="fw-bold">Programs & Features</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Gift Cards</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Shop By Interest</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Amazon Live</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">International Shopping</a> <i class="fa-solid fa-chevron-right"></i>
+              </div>
+                <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">See all   <i class="fa-solid fa-chevron-down"></i></a>
+              
+            </div>
+            <hr>
+            <div class="d-flex flex-column justify-content-center ms-3">
+              <h5 class="fw-bold">Help & Settings</h5>
+              <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Your Account</a>
+              <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;"><i class="bi bi-globe2"></i> English</a>
+              <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;"><span class="fi fi-us"></span> United States</a>
+              <a href="#" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Customer Service</a>
+              <a href="./login.html" class="text-decoration-none text-black my-2" style="font-size: .9rem;">Sign In</a>
+            </div>
+          </div>
+        </div>
+            <a class="nav-link text-white ms-3 py-1 px-2 navlink" href="#">Today's Deals</a>
+            <a class="nav-link text-white ms-3 py-1 px-2 navlink" href="#">Customer Service</a>
+            <a class="nav-link text-white ms-3 py-1 px-2 navlink" href="#">Registry</a>
+            <a class="nav-link text-white ms-3 py-1 px-2 navlink" href="#">Gift Cards</a>
+            <a class="nav-link text-white ms-3 py-1 px-3 navlink" href="#">Sell</a>
+      </div>
+      
 
       <div class="containerr">
         <div class="bg-img position-relative d-flex">
@@ -315,5 +479,377 @@
         </div>
       </div>
     </header>
-  </body>
+
+
+  <div class="row gy-3 my-3 mt-5">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card border-0 rounded-0">
+        <div class="row pt-4 ps-3">
+          <h4>Shop deals in Dresses</h4>
+        </div>
+        <div class="row px-3 py-3">
+
+          <div class="col-6 ">
+              <div style="object-position: center;" class="img1  " style="height: 9rem; width: 9rem;" >
+                  <img src="./asets/XCM__.jpg" class="img-fluid">
+                  <p style="font-size: .7rem;" class="ms-3 mt-2">Dress</p>
+              </div>
+              <div style="object-position: center;" class="img2   my-3" style="height: 9rem; width: 9rem;" >
+                  <img src="./asets/111.jpg" class="img-fluid">
+                  <p style="font-size: .7rem;" class="ms-3 mt-2">Coats</p>
+              </div>
+          </div>
+
+          <div class="col-6 ">
+              <div style="object-position: center;" class="img1  " style="height: 9rem; width: 9rem;" >
+                  <img src="./asets/112.jpg" class="img-fluid">
+                  <p style="font-size: .7rem;" class="ms-3 mt-2">Shirts</p>
+              </div>
+              <div style="object-position: center;" class="img2   my-3" style="height: 9rem; width: 9rem;" >
+                  <img src="./asets/113.jpg" class="img-fluid">
+                  <p style="font-size: .7rem;" class="ms-3 mt-2">Jewellery</p>
+              </div>
+          </div>
+          <a href="#" class="text-decoration-none" style="font-size: .8rem;">Shop all</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card border-0 rounded-0">
+        <div class="card-content m-3">
+          <h5 class="mb-0 mb-3">Fill your Easter basket with joy</h5>
+          <div class="img" style="background-image: url(./asets/114.jpg);"></div>
+        </div>
+        <a class="text-decoration-none ms-3" style="font-size: .8rem; margin-top: .05rem;">Shop now</a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card border-0 rounded-0">
+        <div class="card-content m-3">
+          <h4 class="mb-0 mb-3">Toys under $25</h4>
+          <div class="img" style="background-image: url(./asets/121.jpg);"></div>
+        </div>
+        <a class="text-decoration-none ms-3" style="font-size: .8rem; margin-top: .05rem;">Shop now</a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card border-0 rounded-0">
+        <div class="row pt-4 ps-3">
+          <h4>Shop deals in Fashion</h4>
+        </div>
+        <div class="row px-3 py-3">
+
+          <div class="col-6 ">
+              <div style="object-position: center;" class="img1  " style="height: 9rem; width: 9rem;" >
+                  <img src="./asets/131.jpg" class="img-fluid">
+                  <p style="font-size: .7rem;" class="ms-3 mt-2">Jeans under $50</p>
+              </div>
+              <div style="object-position: center;" class="img2   my-3" style="height: 9rem; width: 9rem;" >
+                  <img src="./asets/132.jpg" class="img-fluid">
+                  <p style="font-size: .7rem;" class="ms-3 mt-2">Tops under $25</p>
+              </div>
+          </div>
+
+          <div class="col-6 ">
+              <div style="object-position: center;" class="img1  " style="height: 9rem; width: 9rem;" >
+                  <img src="./asets/133.jpg" class="img-fluid">
+                  <p style="font-size: .7rem;" class="ms-3 mt-2">Dresses under $30</p>
+              </div>
+              <div style="object-position: center;" class="img2   my-3" style="height: 9rem; width: 9rem;" >
+                  <img src="./asets/134.jpg" class="img-fluid">
+                  <p style="font-size: .7rem;" class="ms-3 mt-2">Shoes under $50</p>
+              </div>
+          </div>
+          <a href="#" class="text-decoration-none" style="font-size: .8rem;">See all deals</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+
+
+<div id="about-section">
+<div class="container-fluid">
+
+    <div class="row gy-3 my-3">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0 rounded-0">
+          <div class="card-content m-3">
+            <h4 class="mb-0 mb-3 fs-5">Shop activity Trackers and Smartwatches</h4>
+            <div class="img" style="background-image: url(./asets/401.jpg);"></div>
+            <a class="text-decoration-none mt-3" style="font-size: .8rem;">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0 rounded-0">
+          <div class="card-content m-3">
+            <div class="row pt-2 ps-3">
+              <h4>Gaming Merchandise</h4>
+            </div>
+            <div class="row px-1 py-3">
+
+              <div class="col-6 ">
+                  <div style="object-position: center;" class="img1  " style="height: 9rem; width: 9rem;" >
+                      <img src="./asets/402.jpg" class="img-fluid">
+                      <p style="font-size: .7rem;" class="ms-3 mt-2">Apparel</p>
+                  </div>
+                  <div style="object-position: center;" class="img2   my-3" style="height: 9rem; width: 9rem;" >
+                      <img src="./asets/403.jpg" class="img-fluid">
+                      <p style="font-size: .7rem;" class="ms-3 mt-2">Action Figures</p>
+                  </div>
+              </div>
+
+              <div class="col-6 ">
+                  <div style="object-position: center;" class="img1  " style="height: 9rem; width: 9rem;" >
+                      <img src="./asets/404.jpg" class="img-fluid">
+                      <p style="font-size: .7rem;" class="ms-3 mt-2">Hats</p>
+                  </div>
+                  <div style="object-position: center;" class="img2   my-3" style="height: 9rem; width: 9rem;" >
+                      <img src="./asets/405.jpg" class="img-fluid">
+                      <p style="font-size: .7rem;" class="ms-3 mt-2">Mugs</p>
+                  </div>
+              </div>
+              <a href="#" class="text-decoration-none" style="font-size: .8rem;">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0 rounded-0">
+          <div class="card-content m-3">
+            <h4 class="mb-0 mb-3 fs-5">Player's paradise starts here</h4>
+            <div class="img" style="background-image: url(./asets/406.jpg);"></div>
+          </div>
+          <a class="text-decoration-none ms-3" style="font-size: .8rem;">Shop video games</a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0 rounded-0">
+          <div class="card-content m-3">
+            <h4 class="mb-0 mb-3 fs-5">A whole new way to work</h4>
+            <div class="img" style="background-image: url(./asets/407.jpg);"></div>
+          </div>
+          <a class="text-decoration-none ms-3" style="font-size: .8rem;">Shop personal computers</a>
+        </div>
+      </div>
+    </div>
+
+    
+
+</div>
+</div>
+
+
+
+
+
+<div class="backToTop container-fluid py-1">
+<a href="#Nav1" class="text-decoration-none">
+<div class="row">
+<div class="col">
+<p class="text-center text-white my-2">Back to Top</p>
+</div>
+</div>
+</a>
+</div>
+
+</main>
+<footer>
+
+<div class="footer-1 container-fluid text-white" style="background-color: #232F3E;">
+<div class="row d-flex align-items-start justify-content-center ft-1" style="padding: 5rem;">
+
+<div class="col-sm-6  col-lg-3 mt-4">
+<h5 style="font-size: 1.05rem;">Get to know Us</h5>
+<div style="list-style-type: none; font-size: .9rem;" class="lh-lg">
+<li>Careers</li>
+<li>Blog</li>
+<li>About Amazon</li>
+<li>Investor Relations</li>
+<li>Amazon Devices</li>
+<li>Amazon Science</li>
+</div>
+</div>
+<div class="col-sm-6  col-lg-3 mt-4">
+<h5 style="font-size: 1.05rem;">Make Money with Us</h5>
+<div style="list-style-type: none; font-size: .9rem;" class="lh-lg">
+<li>Sell products on Amazon</li>
+<li>Sell on Amazon Business</li>
+<li>Sell apps on Amazon</li>
+<li>Become an Affiliate</li>
+<li>Advertise Your Products</li>
+<li>Self-Publish with Us</li>
+<li>Host an Amazon Hub</li>
+</div>
+</div>
+<div class="col-sm-6  col-lg-3 mt-4">
+<h5 style="font-size: 1.05rem;">Amazon Payment Products</h5>
+<div style="list-style-type: none; font-size: .9rem;" class="lh-lg">
+<li>Amazon Business Card</li>
+<li>Shop with Points</li>
+<li>Reload Your Balance</li>
+<li>Amazon Currency Converter</li>
+</div>
+</div>
+<div class="col-sm-6  col-lg-3 mt-4">
+<h5 style="font-size: 1.05rem;">Let Us Help You</h5>
+<div style="list-style-type: none; font-size: .9rem;" class="lh-lg">
+<li>Amazon and Covid-19</li>
+<li>Your Account</li>
+<li>Your Orders</li>
+<li>Shipping Rates & Policies</li>
+<li>Returns & Replacements</li>
+<li>Manage Your Content and Devices</li>
+</div>
+</div>
+</div>
+<hr>
+<!-- Footer 2 -->
+<div class="row pb-3">
+<div class="col d-flex justify-content-evenly align-items-center ft-2">
+<a><img src="./asets/amazon-logo--text-removebg-preview.png" alt="Logo" width="90px"></a>
+<div class="d-flex justify-content-center align-items-center gap-1 my-2 ft-2-1">
+<div class="lang border border-white py-1 px-3 rounded-1"><i class="bi bi-globe2"></i> English</div>
+<div class="lang border border-white py-1 px-3 rounded-1 my-2">&#36; USD - U.S. Dollar</div>
+<div class="lang border border-white py-1 px-3 rounded-1"><span class="fi fi-us"></span> United States</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Footer 3 -->
+<div class=" footer-3 container-fluid text-white p-5" style="background-color: #131A22;">
+<div class="container">
+
+<!-- Row 1 -->
+<div class="row d-flex align-items-center justify-content-center mt-3 text-center text-md-start lh-sm" style="list-style-type: none; font-size: .8rem;">
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Amazon Music</li>
+<li class="text-secondary">Stream millions of <br> songs</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Amazon Adds</li>
+<li class="text-secondary">Reach customers <br> wherever they <br> spend their time</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">6 pm</li>
+<li class="text-secondary">Score deals <br> on fashion <br> brands</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">AbeBooks</li>
+<li class="text-secondary">Books, art <br> & collectibles</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">ACX</li>
+<li class="text-secondary">Audiobook Publishing <br> Made Easy</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Sell on Amazon</li>
+<li class="text-secondary">Start a Selling <br> Account</li>
+</div>
+</div>
+
+<!-- Row 2 -->
+<div class="row d-flex align-items-center justify-content-center mt-3 text-center text-md-start lh-sm" style="list-style-type: none; font-size: .8rem;">
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Amazon Global</li>
+<li class="text-secondary">Ship Orders <br> Internationally</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Home Services</li>
+<li class="text-secondary">Experienced Pros <br> Happiness <br> Guarantee </li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Amazon Web <br> Services </li>
+<li class="text-secondary">Scalable Cloud <br> Computing <br> Services</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Audible</li>
+<li class="text-secondary">Listen to Books & <br> Original Audio <br> Performances</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Box Office Mojo</li>
+<li class="text-secondary">Find Movie <br> Box Office Data</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Goodreads</li>
+<li class="text-secondary">Book reviews & <br> recommendations</li>
+</div>
+</div>
+
+<!-- Row 3 -->
+<div class="row d-flex align-items-center justify-content-center mt-3 text-center text-md-start lh-sm" style="list-style-type: none; font-size: .8rem;">
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">IMDb Pro</li>
+<li class="text-secondary">Get Info <br> Entertainment <br> Professionals <br> Need</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Kindle Direct <br> Publishing</li>
+<li class="text-secondary">Indie Digital & <br> Print Publishing <br> Made Easy</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Prime Video <br> Direct</li>
+<li class="text-secondary">Video <br> Distribution <br> Made Easy</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Shopbop</li>
+<li class="text-secondary">Designer <br> Fashion Brands</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Woot!</li>
+<li class="text-secondary">Deals and <br> Shenanigans</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Zappos</li>
+<li class="text-secondary">Shoes & <br> Clothing</li>
+</div>
+</div>
+
+<!-- Row 4 -->
+<div class="row d-flex align-items-center justify-content-center mt-3 text-center text-md-start lh-sm" style="list-style-type: none; font-size: .8rem;">
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;"></li>
+<li class="text-secondary"></li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">eero WiFi</li>
+<li class="text-secondary">Stream 4K Video <br> in Every Room</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Blink</li>
+<li class="text-secondary">Smart Security <br> for Every <br> Home</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Neighbours App</li>
+<li class="text-secondary">Real-Time Crime <br> & Safety Alerts</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;">Amazon Subscription <br> Boxes</li>
+<li class="text-secondary">Top subscription boxes <br> right to your door</li>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mt-2">
+<li style="color: #ced5d7;"></li>
+<li class="text-secondary"></li>
+</div>
+</div>
+
+<!-- Footer 4 -->
+<div class="row text-center mt-5" style="list-style-type: none; font-size: .8rem; color: #ced5d7;">
+<div class="d-flex justify-content-center align-items-center gap-3 flex-wrap .text-secondary-emphasis" >
+<li>Conditions of Use</li>
+<li>Privacy Notice</li>
+<li>Your Ads Privacy Choices
+  
+</li>
+</div>
+<li class="mt-2">© 1996-2024, Amazon.com, Inc, or its affiliates</li>
+</div>
+</div>
+</div>
+</footer>
+</body>
 </html>
+

@@ -61,3 +61,71 @@ a {
 .form-select {
   width: 20px;
 }
+
+.bg-imgtop {
+  height: 690px;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-item img {
+  mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+.card {
+  height: 420px;
+}
+.card .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  height: 350px;
+}
+.navlink:hover {
+  border: 1px solid white;
+}
+.create {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.create:hover {
+  background-color: #edf3f3 !important;
+}
+footer {
+  box-shadow: rgba(198, 206, 213, 0.678) 0px 3px 20px 0px inset;
+}
+.cross:hover {
+  cursor: pointer;
+}
+
+/* width */
+.wrapper:hover::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* Track */
+.wrapper:hover::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+.wrapper:hover::-webkit-scrollbar-thumb {
+  background: rgb(77, 77, 77);
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.wrapper:hover::-webkit-scrollbar-thumb:hover {
+  background: rgb(140, 140, 140);
+}
+.backToTop {
+  background-color: #37475a;
+  transition: 0.2s;
+}
+.backToTop:hover {
+  background-color: #485b72;
+}
