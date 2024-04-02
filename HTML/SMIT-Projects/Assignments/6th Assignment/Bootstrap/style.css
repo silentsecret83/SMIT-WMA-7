@@ -129,3 +129,9 @@ footer {
 .backToTop:hover {
   background-color: #485b72;
 }
+
+@media only screen and (min-width: 480px) {
+  .bg-img {
+    display: none;
+  }
+}
