@@ -1,8 +1,8 @@
 // 1. Write a JS code to print numbers from 1 to 10
 
-for (let index = 1; index <= 10; index++) {
-  console.log(index);
-}
+//for (let index = 1; index <= 10; index++) {
+// console.log(index);
+//}
 
 // 2. Write a JS code to print Even numbers in given array
 
@@ -46,4 +46,24 @@ for (let index = 1; index <= 10; index++) {
 //     const result = power(base, exponent);
 //     console.log(base + " raised to the power of " + exponent + " is:", result);
 //     alert(base + " raised to the power of " + exponent + " is:" + result);
+// }
+
+// 5. Write a JS code to print a pattern using for loop
+/* 
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8 
+*/
+
+// for (let i = 1; i <= 8; i++) {
+//     var p = ' '
+//     for (let j = 1; j <= i; j++){
+//         p += j + ' ';
+//     }
+//     console.log(p);
 // }
