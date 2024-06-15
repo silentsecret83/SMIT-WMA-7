@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display" id="display">0</div>
+      <div class="buttons" id="basic-buttons">
+        <button onclick="clearDisplay()">AC</button>
+        <button onclick="removeLastDigit()">⌦</button>
+        <button onclick="appendOperator('/')">/</button>
+        <button onclick="appendOperator('*')">*</button>
+        <button onclick="calculateResult()" class="equal">=</button>
+
+        <button onclick="appendNumber('7')">7</button>
+        <button onclick="appendNumber('8')">8</button>
+        <button onclick="appendNumber('9')">9</button>
+        <button onclick="appendNumber('.')">.</button>
+        <button onclick="appendOperator('+')">+</button>
+        <button onclick="appendNumber('4')">4</button>
+        <button onclick="appendNumber('5')">5</button>
+        <button onclick="appendNumber('6')">6</button>
+        <button onclick="appendOperator('%')">%</button>
+        <button onclick="appendOperator('-')">-</button>
+
+        <button onclick="appendNumber('1')">1</button>
+        <button onclick="appendNumber('2')">2</button>
+        <button onclick="appendNumber('3')">3</button>
+
+        <button onclick="appendNumber('0')" class="zero">0</button>
+        <button onclick="showScientific()">⇆</button>
+      </div>
+      <div class="buttons" id="scientific-buttons" style="display: none">
+        <button onclick="calculateSquareRoot()">√</button>
+        <button onclick="calculatePower()">^</button>
+        <button onclick="calculateSin()">sin</button>
+        <button onclick="calculateCos()">cos</button>
+        <button onclick="calculateTan()">tan</button>
+        <button onclick="calculateLog()">log</button>
+        <button onclick="calculateExp()">exp</button>
+        <button onclick="calculatePi()">π</button>
+        <button onclick="calculateFactorial()">n!</button>
+        <button onclick="showBasic()">⇆</button>
+      </div>
+    </div>
+    <script src="cal.js"></script>
+  </body>
+</html>
