@@ -112,3 +112,34 @@
 // alert(customMess);
 // alert("2" + "2");
 // alert("2 plus 2 equals " + 2 + 2);
+
+// cH 9 : Prompts:
+
+// var name = prompt("Enter your name:");
+// alert(name);
+
+// var question = "your name?";
+// var defaultAnswer = "Usama";
+// var name = prompt(question, defaultAnswer);
+
+// var numOfCats = prompt("How many Cats?");
+// var toManyCats = numOfCats + 1;
+// alert(toManyCats);
+
+// var numOfCats = prompt("How many Cats?");
+// var toManyCats = +numOfCats + 1;
+// alert(toManyCats);
+
+// Ch 10: if statements:
+
+// var x = prompt("Who is known as the mother of the nation of Pakistan?");
+// if (x === "Fatima jinnah") {
+//   alert("correct!");
+// }
+
+// var correctAnswer = "Fatima jinnah";
+// if (x === correctAnswer) {
+//   score++;
+//   userIQ = "genius";
+//   alert("Correct!");
+// }
