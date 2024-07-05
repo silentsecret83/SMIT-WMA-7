@@ -143,3 +143,69 @@
 //   userIQ = "genius";
 //   alert("Correct!");
 // }
+
+// Ch 11: Comparison operators:
+
+// var x = prompt("ticket");
+// if (yourTicketNumber !== 487208) {
+//   alert("Better luck next time.");
+// }
+
+// Ch 12: if...else and else if statements:
+
+// var x = prompt("Nationality?");
+// if (x === "Pakistani") {
+//   alert("Correct");
+//   console.log("Correct");
+// } else {
+//   alert("False");
+// }
+
+// var correctAnswer = "Pakistani";
+// if (x === correctAnswer) {
+//   alert("Correct");
+// } else {
+//   score--;
+//   userIQ = "problematic";
+//   alert("Incorrect");
+// }
+
+// var correctAnswer = "Pakistani";
+// if (x === correctAnswer) {
+//   alert("Correct!");
+// } else if (x === "Rome") {
+//   alert("Incorrect but close");
+// } else {
+//   alert("Incorrect");
+// }
+
+// ch 13 Testing sets of conditions
+
+// var weight = prompt("enter value");
+// var time = prompt("enter value");
+// var age = prompt("write the age");
+// if (weight > 300 && time < 6 && age < 25 && gender === male) {
+//   alert("You can Apply");
+// } else {
+//   alert("Try again");
+// }
+
+// var cgpa = prompt("enter value");
+// var number = prompt("enter value");
+
+// if (cgpa > 2.5 || number > 720) {
+//   alert("You can Apply");
+// } else {
+//   alert("Try again");
+// }
+
+var cgpa = prompt("cgpa");
+var num = prompt("Number");
+var age = prompt("age");
+var weight = prompt("weight");
+
+if (cgpa > 2.5 || (num > 660 && age < 25 && weight < 100)) {
+  alert("You can Apply");
+} else {
+  alert("Try again");
+}
