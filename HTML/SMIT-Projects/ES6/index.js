@@ -125,6 +125,8 @@
 
 // Class 3:
 
+// this is 1st file :::::::::::::::::::::::::::::::::
+
 // let names = [1, 4, 5, 6, 8]
 
 // let [name1,, name3, ...nums] = names
@@ -147,15 +149,14 @@
 
 // console.log(sumOfItself(nums.num1, nums.num2))
 
-// Class 4:
-//  this is the 1st file::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+//  this is the 2st file::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 // const num1 = 50
 // const num2 = 40
 
 // export default { num1, num2 }
 
-// this is 2nd file:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+// class 4
 
 // Asynchronous JS
 // 1. Concurrency:
