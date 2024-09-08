@@ -1,0 +1,43 @@
+/* src/components/Projects.css */
+.projects {
+  padding: 100px 0;
+  background-color: #0d1b2a;
+  color: #e5e5e5;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.project-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #1b263b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #a8dadc;
+}
+
+.project-card a {
+  color: #e63946;
+  text-decoration: none;
+}
