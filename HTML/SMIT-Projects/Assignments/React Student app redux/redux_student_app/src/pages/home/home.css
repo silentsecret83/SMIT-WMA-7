@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(135deg, #e0f7fa, #80deea, #26c6da);
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #00695c;
+  padding: 15px;
+  background: #004d40;
+  color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.homecontent {
+  max-width: 85%;
+  margin: auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.tablebox {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.tablebox th,
+.tablebox td {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #eceff1;
+}
+
+.tablebox th {
+  background-color: #00796b;
+  color: white;
+  font-weight: bold;
+}
+
+.tablebox tr:hover {
+  background-color: #e0f2f1;
+}
+
+.stucontent {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.MuiButton-root {
+  background-color: #00796b !important;
+  color: #ffffff !important;
+  text-transform: uppercase !important;
+  padding: 8px 12px !important;
+  border-radius: 20px !important;
+  font-size: 14px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+  transition: background 0.3s;
+}
+
+.MuiButton-root:hover {
+  background-color: #004d40 !important;
+}
+
+/* Smaller rounded input fields */
+.MuiTextField-root {
+  width: 80% !important; /* Adjusted to make input fields smaller */
+  margin-bottom: 10px;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 20px !important;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Align table cells within the box */
+.MuiContainer-root {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  max-width: 1200px;
+}
